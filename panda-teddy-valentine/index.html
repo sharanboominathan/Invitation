@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda & Teddy — Our Love Story</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"> <!-Font
+        Awesome for icons->
+</head>
+
+<body>
+
+    <!-- Floating Hearts Background -->
+    <div class="background-hearts" id="background-hearts"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Panda 💛 Teddy</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#quiz-section">Quiz</a></li>
+            <li><a href="#timeline-section">Journey</a></li>
+            <li><a href="#gallery-section">Memories</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section 1: Hero -->
+    <header class="hero-section" id="hero">
+        <div class="hero-content">
+            <h1>Panda <span class="heart-pulse">💛</span> Teddy</h1>
+            <p class="subtitle">From the moment Panda met Teddy… forever began.</p>
+            <div class="illustration-container">
+                <img src="assets/panda and teddy.png" alt="Panda and Teddy" class="main-illustration">
+            </div>
+            <button id="start-journey-btn" class="cta-button">Start Our Journey ✨</button>
+        </div>
+    </header>
+
+    <!-- Section 2: Cute Question Round -->
+    <section id="quiz-section" class="hidden-section">
+        <h2>Cute Question Round 💬</h2>
+        <div class="quiz-container">
+            <div class="question-card" id="question-card">
+                <!-- content injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Our First Meet -->
+    <section id="first-meet-section" class="hidden-section">
+        <h2>The Day Panda Met Teddy 💖</h2>
+        <div class="story-content">
+            <p id="typing-text" class="love-note"></p>
+            <div class="editable-details">
+                <span class="detail-item"><i class="fas fa-calendar-alt"></i> <span contenteditable="true">November 25,
+                        2023</span></span>
+                <span class="detail-item"><i class="fas fa-map-marker-alt"></i> <span contenteditable="true">Java
+                        Class</span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Our Journey Together (Timeline) -->
+    <section id="timeline-section" class="hidden-section">
+        <h2>Our Journey Together 🥰</h2>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <img src="assets/our journey/first chat.jpg" alt="First Chat" class="timeline-img">
+                    <h3>First Chat 💬</h3>
+                    <p>The first "Hello" that started it all.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <img src="assets/our journey/first call.jpg" alt="First Call" class="timeline-img">
+                    <h3>First Call ☎️</h3>
+                    <p>Hours of talking about everything and nothing.</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <img src="assets/our journey/first present.jpg" alt="First Present" class="timeline-img">
+                    <h3>First Present 🧸</h3>
+                    <p>Butterflies and shy smiles.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <img src="assets/our journey/first trip.png" alt="First Trip" class="timeline-img">
+                    <h3>First Trip ✈️</h3>
+                    <p>Exploring the world, hand in hand.</p>
+                </div>
+            </div>
+            <div class="timeline-item center">
+                <div class="timeline-content today-marker">
+                    <img src="assets/our journey/sm.jpg" alt="Today" class="timeline-img">
+                    <h3>Today 🐼❤️🧸</h3>
+                    <p>Still writing our beautiful story.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Memory / Photo Section -->
+    <section class="memory-section reveal hidden-section" id="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Our Memories 📷</h2>
+            <p class="section-desc">Just a few of our special moments...</p>
+            <div class="gallery-wrapper">
+                <button id="scrollLeft" class="gallery-btn left-btn" aria-label="Scroll Left">❮</button>
+                <div class="gallery-scroll-container" id="gallery-scroll-container">
+                    <!-- Real Memories -->
+                    <div class="photo-frame">
+                        <img src="assets/01.jpeg" alt="Memory 1">
+                    </div>
+                    <div class="photo-frame">
+                        <img src="assets/02.jpeg" alt="Memory 2">
+                    </div>
+                    <div class="photo-frame">
+                        <img src="assets/03.jpeg" alt="Memory 3">
+                    </div>
+                    <div class="photo-frame">
+                        <img src="assets/04.jpeg" alt="Memory 4">
+                    </div>
+                    <div class="photo-frame">
+                        <img src="assets/05.jpeg" alt="Memory 5">
+                    </div>
+                    <div class="photo-frame">
+                        <img src="assets/06.jpeg" alt="Memory 6">
+                    </div>
+                    <div class="photo-frame">
+                        <img src="assets/07.jpeg" alt="Memory 7">
+                    </div>
+                    <div class="photo-frame">
+                        <img src="assets/08.jpeg" alt="Memory 8">
+                    </div>
+                    <div class="photo-frame">
+                        <img src="assets/09.jpeg" alt="Memory 9">
+                    </div>
+                    <div class="photo-frame">
+                        <img src="assets/10.jpeg" alt="Memory 10">
+                    </div>
+                    <div class="photo-frame">
+                        <img src="assets/11.jpg" alt="Memory 11">
+                    </div>
+                </div>
+                <button id="scrollRight" class="gallery-btn right-btn" aria-label="Scroll Right">❯</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 6: Love Letter -->
+    <section id="letter-section" class="hidden-section">
+        <h2>A Letter From Panda To Teddy 💝</h2>
+        <div class="letter-paper">
+            <div class="typewriter-text">
+                My Dearest Teddy,<br><br>
+                From the moment you walked into my life, everything changed. You are my sunshine on cloudy days and my
+                calm in every storm.
+                I promise to love you, cherish you, and annoy you (just a little bit) forever.<br><br>
+                Love always,<br>
+                Your Panda 🐼
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Bucket List -->
+    <section id="bucket-list-section" class="hidden-section">
+        <h2>Panda & Teddy’s Bucket List 💫</h2>
+        <div class="bucket-grid">
+            <div class="bucket-card">Travel Together 🌍</div>
+            <div class="bucket-card">Build Our Palace 🏡</div>
+            <div class="bucket-card">Support Each Other’s Dreams 🌱</div>
+            <div class="bucket-card">Laugh Even On Hard Days 🫶</div>
+            <div class="bucket-card">Grow Old Together 🐼🧸</div>
+        </div>
+    </section>
+
+    <!-- Section 8: Final Surprise -->
+    <section id="final-surprise-section" class="hidden-section final-section">
+        <div class="proposal-card">
+            <div class="heart-icon-large">💖</div>
+            <h2>Will you stay with your Panda forever, my Teddy?</h2>
+            <p class="please-text">Please say yes! 🥺</p>
+            <div class="button-group">
+                <button id="yes-btn" class="yes-btn">Yes, Forever! �</button>
+                <button id="no-btn" class="no-btn">No 🏃‍♂️</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popups/Overlays -->
+    <div id="final-popup" class="popup-overlay hidden">
+        <div class="popup-content">
+            <h2>I love you forever, my Teddy 🧸❤️</h2>
+            <p>– Your Panda 🐼</p>
+            <div class="confetti-container"></div>
+        </div>
+    </div>
+
+    <!-- Audio Player (Hidden) -->
+    <audio id="bg-music" loop>
+        <source src="assets/Kadhal-Kanave-MassTamilan.com.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Floating Music Control -->
+    <button id="music-control-btn" class="music-btn">🎵</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
